@@ -55,7 +55,7 @@ def get_word_from_sogou_cell_dict(scel_file, scel_file_size):
     try:
         while True:
             word_count = read_uint16(scel_file)
-            pinyin_count = read_uint16(scel_file) / 2
+            pinyin_count = read_uint16(scel_file) // 2
 
             pinyin_list = []
             for i in range(pinyin_count):
