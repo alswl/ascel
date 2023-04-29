@@ -10,7 +10,7 @@ Thanks to:
 
 Required:
 
-*   Python 2.7
+*   Python3
 
 Usage:
 
